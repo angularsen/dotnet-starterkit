@@ -8,10 +8,23 @@ run
 ```
 
 ## Run tests
-The idea is to run these tests just like your build server, so you get identical behavior.
+Easily run tests from command-line or double-clicking `test.bat`.
 ```batch
 test
 ```
+
+## Configuration and shared settings
+There are three files that can help configure Git and your text editors to work better together.
+
+### .editorconfig
+Share settings across team for encoding, indentation style and language specific rules.
+
+### .gitignore
+Ignore files specific to .NET development.
+
+### .gitattributes
+Configure end-of-line and how git should diff certain file types it may be confused about.
+
 
 ## Scripts in Build folder
 Since running powershell scripts is awkward out of the box in Windows due to strict execution policies and no double-click to run behavior, these scripts are moved into `Build` folder.
